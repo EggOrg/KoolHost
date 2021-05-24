@@ -14,19 +14,28 @@ const server = http.createServer((req, res) => {
                     fs.writeFile(reqparse.name, reqparse.content, err => {
                         if (err) {
                             console.log(err);
+                            res.end(`{"completed":"false"}`);
+                            return;
                         }
+                        res.end(`{"completed":"true"}`);
                     });
                 }
                 else if (reqparse.mode == "read") {
                     fs.readFile(reqparse.name, 'utf8', function (err,data) {
                           if (err) {
                               console.log(err);
+                              res.end(`{"completed":"false"}`);
+                              return;
                           }
-                          res.end(`{"content":"${data}"}`);
+                          res.end(`{"completed":"true", "content":"${data}"}`);
                     });
                 }
+                else if (reqparse.mode == "remove") {
+                    fs.unlinkSync(path)
+                    res.end(`{"completed":"true"}`);
+                }
                 else {
-                    res.end(`{"documentation":""}`);
+                    res.end(`{"documentation":"https://raw.githubusercontent.com/EggOrg/KoolHost/main/DOCUMENTATION.md"}`);
                 }
             }
             catch (e) {
