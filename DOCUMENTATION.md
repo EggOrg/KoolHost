@@ -1,7 +1,9 @@
 # Documentation
 KoolHost is a file host that exists without need for a disk size or file cap. It operates via POST requests.
 ## Usage
+
 ### Making a new file
+
 ```JSON
 {"mode":"write", "name":"dummy", "content":""}
 ```
@@ -13,7 +15,9 @@ KoolHost is a file host that exists without need for a disk size or file cap. It
 ```JSON
 {"mode":"remove", "name":"dummy"}
 ```
+
 ## Features
+
 | Feature | KoolHost      | AnonFiles |
 | ----------- | ----------- | ----------- |
 | Unlimited, free file storage | ✔ | ❌ |
@@ -23,3 +27,9 @@ KoolHost is a file host that exists without need for a disk size or file cap. It
 | Unlimited bandwidth | ✔ | ✔ |
 | Free use of code | ✔ | ❌ |
 | Full control over every file | ✔ | ❌ |
+| Simple API | ✔ | ❌ |
+| Written in NodeJS | ✔ | ❔ |
+| Short code | ✔ | ❔ |
+
+## Why you should use it
+As said by our features list, KoolHost offers a competitive advantage over other file hosting companies. 
