@@ -1,2 +1,2 @@
 # KoolHost
-A host without a name related to eggs.
+A file host without a name related to eggs.
