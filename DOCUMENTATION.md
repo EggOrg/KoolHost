@@ -43,3 +43,6 @@ People can access files on your computer by using the "name" JSON object like so
 {"name":"C:\\some\\path"}
 ```
 This can allow people to use operations on the directory "C:\some\path". Using ReplIT you can only access files that are present in the folder in which the files are stored. This can make a hosting environment extremely safe.
+
+## Other
+We only use 51 lines of code! KoolHost was made only in 3 hours. This is as simple as a hosting platform can be, with no limitations at all.
