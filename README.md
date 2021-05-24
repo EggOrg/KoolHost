@@ -1,2 +1,5 @@
 # KoolHost
-A file host without a name related to eggs.
+## Installation
+```
+npm init && npm install http && npm run
+```
