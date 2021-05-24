@@ -16,5 +16,5 @@ KoolHost is a file host that exists without need for a disk size or file cap. It
 ## Features
 | Feature | KoolHost      | AnonFiles |
 | ----------- | ----------- | ----------- |
-| Unlimited file storage | - [x] | - [ ] |
-| POST-based API | - [x] | - [ ] |
+| Unlimited file storage | [x] | [ ] |
+| POST-based API | [x] | [ ] |
