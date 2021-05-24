@@ -37,8 +37,9 @@ As said by our features list, KoolHost offers a competitive advantage over other
 
 ## Hosting
 
-Hosting KoolHost on your own computer is extremely dangerous, as a user could write, read or remove files from anywhere on your computer. Using a host such as ReplIT or Bluehost, though, is a much safer option.  
+Hosting KoolHost on your own computer is extremely dangerous, as a user could write, read or remove files from anywhere on your computer. Using a host such as ReplIT, though, is a much safer option.  
 People can access files on your computer by using the "name" JSON object like so:  
 ```JSON
 {"name":"C:\\some\\path"}
 ```
+This can allow people to use operations on the directory "C:\some\path". Using ReplIT you can only access files that are present in the folder in which the files are stored.
