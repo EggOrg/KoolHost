@@ -13,3 +13,5 @@ KoolHost is a file host that exists without need for a disk size or file cap. It
 ```JSON
 {"mode":"remove", "name":"dummy"}
 ```
+## Features
+- [ ] POST-based API.
