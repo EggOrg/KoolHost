@@ -1,7 +1,11 @@
 # Documentation
-KoolHost is a free file host that exists without need for a disk size or file cap.
+KoolHost is a file host that exists without need for a disk size or file cap. It operates via POST requests.
 ## Usage
 ### Making a new file
 ```JSON
 {"mode":"write", "name":"dummy", "content":""}
+```
+### Reading a file
+```JSON
+{"mode":"read", "name":"dummy"}
 ```
