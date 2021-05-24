@@ -1,2 +1,1 @@
 # KoolHost
-eggy host
