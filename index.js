@@ -31,7 +31,7 @@ const server = http.createServer((req, res) => {
                     });
                 }
                 else if (reqparse.mode == "remove") {
-                    fs.unlinkSync(path)
+                    fs.unlinkSync(reqparse.name);
                     res.end(`{"completed":"true"}`);
                 }
                 else {
