@@ -32,4 +32,9 @@ KoolHost is a file host that exists without need for a disk size or file cap. It
 | Short code | ✔ | ❔ |
 
 ## Why you should use it
+
 As said by our features list, KoolHost offers a competitive advantage over other file hosting companies. 
+
+## Hosting
+
+Hosting KoolHost on your own computer is extremely dangerous, as a user could write, read or remove files from anywhere on your computer. Using a host such as ReplIT or Bluehost, though, is a much safer option.
