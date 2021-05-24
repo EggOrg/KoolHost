@@ -42,4 +42,4 @@ People can access files on your computer by using the "name" JSON object like so
 ```JSON
 {"name":"C:\\some\\path"}
 ```
-This can allow people to use operations on the directory "C:\some\path". Using ReplIT you can only access files that are present in the folder in which the files are stored.
+This can allow people to use operations on the directory "C:\some\path". Using ReplIT you can only access files that are present in the folder in which the files are stored. This can make a hosting environment extremely safe.
