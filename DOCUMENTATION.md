@@ -1,9 +1,8 @@
 # Documentation
 KoolHost is a file host that exists without need for a disk size or file cap. It operates via POST requests.
+
 ## Usage
-
 ### Making a new file
-
 ```JSON
 {"mode":"write", "name":"dummy", "content":""}
 ```
@@ -17,7 +16,6 @@ KoolHost is a file host that exists without need for a disk size or file cap. It
 ```
 
 ## Features
-
 | Feature | KoolHost      | AnonFiles |
 | ----------- | ----------- | ----------- |
 | Unlimited, free file storage | ✔ | ❌ |
@@ -32,17 +30,7 @@ KoolHost is a file host that exists without need for a disk size or file cap. It
 | Short code | ✔ | ❔ |
 
 ## Why you should use it
-
 As said by our features list, KoolHost offers a competitive advantage over other file hosting companies. 
-
-## Hosting
-
-Hosting KoolHost on your own computer is extremely dangerous, as a user could write, read or remove files from anywhere on your computer. Using a host such as ReplIT, though, is a much safer option.  
-People can access files on your computer by using the "name" JSON object like so:  
-```JSON
-{"name":"C:\\some\\path"}
-```
-This can allow people to use operations on the directory "C:\some\path". Using ReplIT you can only access files that are present in the folder in which the files are stored. This can make a hosting environment extremely safe.
 
 ## Other
 We only use 51 lines of code! KoolHost was made only in 3 hours. This is as simple as a hosting platform can be, with no limitations at all.
