@@ -14,6 +14,7 @@ const server = http.createServer((req, res) => {
                 const filename = `${__dirname}/${path.normalize(reqparse.name)}`;
                 if (filename == __filename) {
                     res.end(`{"err":"403", "errdesc":"Just no."}`);
+                    return;
                 }
                 if (reqparse.mode == "write") {
                     fs.writeFile(reqparse.name, reqparse.content, err => {
